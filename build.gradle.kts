@@ -28,6 +28,7 @@ subprojects {
     repositories {
         mavenLocal()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
     }
     // 全局依赖
     dependencies {
